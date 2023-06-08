@@ -1,0 +1,82 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">	
+    <title>Jogo da Velha</title>  
+	<script>
+		window.onload = function(){
+document.getElementById("img_config").onclick = function(){
+obj = document.getElementById("config");
+if(obj.style.display == "none"){
+obj.style.display = "block";
+}else{
+obj.style.display = "none";
+}
+}
+document.getElementById("fechar").onclick = function(){
+document.getElementById("config").style.display="none";
+}
+}
+	</script> 
+</head>
+<body>
+<header><h1>Jogo da Velha</h1><nav id="an_e"><p id="anounce"></p></nav></header>
+
+	<main>
+	<img src="config.png" id="img_config">
+	<section id="config">
+		<div id="fechar">X</div>
+		<p>Nível: <select id="level">
+				<option id="1">Fácil</option>
+				<option id="2">Intermediário</option>
+				<option id="3" selected>Diffícil</option>
+				</select></p>
+				<p>Modo.: <select id="vs">
+				<option id="p_c" selected>Player vs CPU</option>
+				<option id="p_p">Player 1 vs Player 2</option>
+				</select></p>
+				<input id="set" type="button" value="Definir" onclick="config()"><input id="stop" type="button" value="Parar" onclick="parar()">
+				</section>
+		<section id="game">
+		<div id="dvmenu">
+			<p id="quem_comeca">Quem Joga: </p>
+			<button onclick="iniciar()" style="display: none;">Iniciar Jogo</button>
+		</div>
+		<br>		
+		<div id="dvjogo">
+			<div id="p1" class="posGame" onclick="jogar(0,0)"></div>
+			<div id="p2" class="posGame" onclick="jogar(0,1)"></div>
+			<div id="p3" class="posGame" onclick="jogar(0,2)"></div>
+			<div id="p4" class="posGame" onclick="jogar(1,0)"></div>
+			<div id="p5" class="posGame" onclick="jogar(1,1)"></div>
+			<div id="p6" class="posGame" onclick="jogar(1,2)"></div>
+			<div id="p7" class="posGame" onclick="jogar(2,0)"></div>
+			<div id="p8" class="posGame" onclick="jogar(2,1)"></div>
+			<div id="p9" class="posGame" onclick="jogar(2,2)"></div>
+		</div>
+		</section>
+	</main>
+	<footer>
+<table id="table">
+			<caption>Score</caption>
+			<thead>
+				<tr>
+					<th id="p_1">Jogador</th>
+					<th id="p_2">CPU</th>
+				</tr>
+			</thead>
+			<tboby>
+				<tr>
+					<td id="score_player">0</td>
+					<td id="score_cpu">0</td>
+				</tr>
+			</tboby>
+		</table>
+	</footer>
+	<script src="velha.js"></script>
+</body>
+</html>

@@ -1,0 +1,183 @@
+@charset "utf8";
+
+*{
+   transition:0.6s;
+  }
+
+
+		body{
+			background-color: #21D4EB;
+			font-family: monospace;
+		}
+	
+#img_config{
+
+	width: 30px;
+	height: 30px;
+	box-shadow: 2px 2px rgb(0, 0, 0, 0.345);
+	border: 2px solid black;
+cursor: pointer;
+}
+#img_config:hover{
+box-shadow: 2px 2px teal;
+
+}
+	#config{
+
+	display:none;	
+	background-color: black;
+	padding: 0px 20px 20px 20px;
+	width: 250px;
+	color: white;
+	box-shadow: 3px 3px teal;
+	border-radius: 10px 0px;
+}
+
+#fechar{
+margin-left: 96%;
+background-color:darkred;
+color:white;
+font: bold 1.1em sans-serif;
+width: 30px;
+height: 25px;
+text-align: center;
+cursor: pointer;
+}
+#fechar:hover{
+background-color: white;
+color: darkred;
+}
+
+        #dvjogo{
+            width: 160px;
+            height: 160px;
+            display: flex;
+            flex-wrap : wrap;   
+            align-content: flex-start; 	
+	    margin: auto;		
+        }
+        .posGame{
+            width: 50px;
+            height: 50px;
+            margin: 0px; 
+            padding: 0px;
+            cursor: pointer;
+            display: flex;
+            border: 1px solid black;
+            justify-content: center;
+            align-items: center;
+            font-size: 2em;			
+        }
+        #p1{
+            border-top: none;
+            border-left: none;
+        }
+        #p2{
+            border-top: none;
+        }
+        #p3{
+            border-top: none;
+            border-right: none;
+        }
+        #p4{
+            border-left: none;
+        }
+        #p6{
+            border-right: none;
+        }
+        #p7{
+            border-left: none;
+            border-bottom: none;
+        }
+        #p8{
+            border-bottom: none;
+        }
+        #p9{
+            border-bottom: none;
+            border-right: none;
+        }
+		table{
+			border-collapse: collapse;
+			text-align: center;
+			vertical-align: middle;
+		}
+		#table{	
+			background-color: white;
+			width: 100%;
+			height: 100%;
+		}
+		th,td{
+			padding: 5px;
+			border: 1px solid black;
+		}
+		caption{
+			background-color: green;
+			color: white;
+			padding: 5px;
+		}
+		header{
+			background-color: #0F606B;
+			padding: 20px;
+			max-width: 400px;
+			margin: auto;
+		}	h1{
+			font-size: 2em;
+			text-align: center;
+			color: lightblue;
+			text-decoration: underline dotted;
+		}
+		main{
+			background-color: #B0E7EE;
+			padding: 20px;
+			margin: auto;
+			max-width: 400px;
+			
+		}
+		section{
+			margin-left: 10px;
+			margin-top: 30px;
+		}
+		footer{
+			background-color: #0F606B;
+			max-width: 427.5px;
+			margin: auto;
+			padding: 5px;
+		}
+		#stop, #set{
+			padding: 5px;
+			width: 110px;
+			background-color: #c6eff3;
+			color: #0F606B;
+			font-weight: bold;
+			outline: none;
+			margin: 3px;
+cursor: pointer;
+		}
+		#level, #vs{
+			width: 170px;
+			outline: none;
+			font-variant: small-caps;
+		}
+		#quem_comeca{
+			font-weight: bold;
+			color: #0F606B;
+		}
+		nav{
+			width: 600px;
+			height: 100px;
+			margin: auto;
+			background-color: #0F606B;
+			display: none;
+		}
+#an_e{width: 100%;}
+		#anounce{
+			width: 100%;
+			background-color: white;
+			color: #0F606B;
+			font-size: 1.3em;
+			font-weight: bolder;
+			text-align: center;
+			padding: 10px;
+			box-shadow: 2px 2px rgb(0, 0, 0, 0.456);
+			text-shadow: 1px 1px black;
+		}
