@@ -1,0 +1,266 @@
+************************************* Invoked: qua jan 12 10:56:51 2022
+[0] Arguments: C:\Users\Thaise\Downloads\InstallSQLiteStudio-3.2.1.exe
+[80] Operations sanity check succeeded.
+[17070] Loaded control script ":/metadata/installer-config/controller_qs.qs"
+[17070] Using control script: ":/metadata/installer-config/controller_qs.qs"
+[17238] Control script callback "IntroductionPageCallback" does not exist.
+[22046] Warning: :20: TypeError: Cannot call method 'connect' of undefined (:20, )
+[22070] Control script callback "TargetDirectoryPageCallback" does not exist.
+[70648] Created warning message box "OverwriteTargetDirectory": "Warning", "You have selected an existing, non-empty directory for installation.\nNote that it will be completely wiped on uninstallation of this application.\nIt is not advisable to install into this directory as installation might fail.\nDo you want to continue?"
+[115217] Created warning message box "OverwriteTargetDirectory": "Warning", "You have selected an existing, non-empty directory for installation.\nNote that it will be completely wiped on uninstallation of this application.\nIt is not advisable to install into this directory as installation might fail.\nDo you want to continue?"
+[159303] Created warning message box "OverwriteTargetDirectory": "Warning", "You have selected an existing, non-empty directory for installation.\nNote that it will be completely wiped on uninstallation of this application.\nIt is not advisable to install into this directory as installation might fail.\nDo you want to continue?"
+[160817] Control script callback "ComponentSelectionPageCallback" does not exist.
+[167046] Tmp and install directories are on the same volume. Volume mount point: "C:\\" Free space available: "42.70 GiB"
+[167046] Installation space required: "47.66 MiB" Temporary space required: "0.00 bytes" Local repository size: "0.00 bytes"
+[167047] Control script callback "ReadyForInstallationPageCallback" does not exist.
+[171943] Control script callback "PerformInstallationPageCallback" does not exist.
+[172025] backup  operation: Mkdir
+[172025] 	- arguments: C:/ProgramData
+[172026] Done
+[172027] perform  operation: Mkdir
+[172027] 	- arguments: C:/ProgramData
+[172028] Done
+[172028] Install size: 22 components
+[172203] backup io.qt operation: Extract
+[172203] 	- arguments: installer://io.qt/5.10.0qt.7z, C:\ProgramData
+[172203] Done
+[172204] perform io.qt operation: Extract
+[172204] 	- arguments: installer://io.qt/5.10.0qt.7z, C:\ProgramData
+[181246] Done
+[181289] backup pl.com.salsoft.sqlitestudio operation: Extract
+[181289] 	- arguments: installer://pl.com.salsoft.sqlitestudio/3.2.1sqlitestudio.7z, C:\ProgramData
+[181289] Done
+[181291] perform pl.com.salsoft.sqlitestudio operation: Extract
+[181291] 	- arguments: installer://pl.com.salsoft.sqlitestudio/3.2.1sqlitestudio.7z, C:\ProgramData
+[182531] Done
+[182531] backup pl.com.salsoft.sqlitestudio operation: CreateShortcut
+[182531] 	- arguments: C:\ProgramData/SQLiteStudio.exe, C:\Users\Thaise\AppData\Roaming\Microsoft\Windows\Start Menu\Programs/SQLiteStudio/SQLiteStudio.lnk, workingDirectory=C:\ProgramData, iconPath=C:\ProgramData/SQLiteStudio.exe, iconId=0, description=SQLiteStudio
+[182533] Done
+[182534] perform pl.com.salsoft.sqlitestudio operation: CreateShortcut
+[182534] 	- arguments: C:\ProgramData/SQLiteStudio.exe, C:\Users\Thaise\AppData\Roaming\Microsoft\Windows\Start Menu\Programs/SQLiteStudio/SQLiteStudio.lnk
+[183688] Done
+[183689] backup pl.com.salsoft.sqlitestudio operation: RegisterFileType
+[183689] 	- arguments: db, C:\ProgramData/SQLiteStudio.exe '%1', SQLite database, application/octet-stream, C:\ProgramData/SQLiteStudio.exe,0, ProgId=SQLiteStudio.db
+[183689] Done
+[183689] perform pl.com.salsoft.sqlitestudio operation: RegisterFileType
+[183689] 	- arguments: db, C:\ProgramData/SQLiteStudio.exe '%1', SQLite database, application/octet-stream, C:\ProgramData/SQLiteStudio.exe,0, ProgId=SQLiteStudio.db
+[183783] Done
+[183783] backup pl.com.salsoft.sqlitestudio operation: RegisterFileType
+[183783] 	- arguments: db3, C:\ProgramData/SQLiteStudio.exe '%1', SQLite database, application/octet-stream, C:\ProgramData/SQLiteStudio.exe,0, ProgId=SQLiteStudio.db3
+[183784] Done
+[183784] perform pl.com.salsoft.sqlitestudio operation: RegisterFileType
+[183784] 	- arguments: db3, C:\ProgramData/SQLiteStudio.exe '%1', SQLite database, application/octet-stream, C:\ProgramData/SQLiteStudio.exe,0, ProgId=SQLiteStudio.db3
+[183893] Done
+[183893] backup pl.com.salsoft.sqlitestudio operation: RegisterFileType
+[183893] 	- arguments: sqlite, C:\ProgramData/SQLiteStudio.exe '%1', SQLite database, application/octet-stream, C:\ProgramData/SQLiteStudio.exe,0, ProgId=SQLiteStudio.sqlite
+[183894] Done
+[183894] perform pl.com.salsoft.sqlitestudio operation: RegisterFileType
+[183894] 	- arguments: sqlite, C:\ProgramData/SQLiteStudio.exe '%1', SQLite database, application/octet-stream, C:\ProgramData/SQLiteStudio.exe,0, ProgId=SQLiteStudio.sqlite
+[184029] Done
+[184030] backup pl.com.salsoft.sqlitestudio operation: RegisterFileType
+[184030] 	- arguments: sqlite3, C:\ProgramData/SQLiteStudio.exe '%1', SQLite database, application/octet-stream, C:\ProgramData/SQLiteStudio.exe,0, ProgId=SQLiteStudio.sqlite3
+[184030] Done
+[184030] perform pl.com.salsoft.sqlitestudio operation: RegisterFileType
+[184030] 	- arguments: sqlite3, C:\ProgramData/SQLiteStudio.exe '%1', SQLite database, application/octet-stream, C:\ProgramData/SQLiteStudio.exe,0, ProgId=SQLiteStudio.sqlite3
+[184105] Done
+[184106] backup pl.com.salsoft.sqlitestudio operation: RegisterFileType
+[184106] 	- arguments: sdb, C:\ProgramData/SQLiteStudio.exe '%1', SQLite database, application/octet-stream, C:\ProgramData/SQLiteStudio.exe,0, ProgId=SQLiteStudio.sdb
+[184106] Done
+[184106] perform pl.com.salsoft.sqlitestudio operation: RegisterFileType
+[184107] 	- arguments: sdb, C:\ProgramData/SQLiteStudio.exe '%1', SQLite database, application/octet-stream, C:\ProgramData/SQLiteStudio.exe,0, ProgId=SQLiteStudio.sdb
+[184185] Done
+[184186] backup pl.com.salsoft.sqlitestudio operation: RegisterFileType
+[184186] 	- arguments: s3db, C:\ProgramData/SQLiteStudio.exe '%1', SQLite database, application/octet-stream, C:\ProgramData/SQLiteStudio.exe,0, ProgId=SQLiteStudio.s3db
+[184186] Done
+[184186] perform pl.com.salsoft.sqlitestudio operation: RegisterFileType
+[184186] 	- arguments: s3db, C:\ProgramData/SQLiteStudio.exe '%1', SQLite database, application/octet-stream, C:\ProgramData/SQLiteStudio.exe,0, ProgId=SQLiteStudio.s3db
+[184274] Done
+[184282] backup pl.com.salsoft.sqlitestudio.plugins.dbandroid operation: Extract
+[184282] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.dbandroid/1.2.1DbAndroid.7z, C:\ProgramData
+[184282] Done
+[184282] perform pl.com.salsoft.sqlitestudio.plugins.dbandroid operation: Extract
+[184282] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.dbandroid/1.2.1DbAndroid.7z, C:\ProgramData
+[184357] Done
+[184363] backup pl.com.salsoft.sqlitestudio.plugins.csvexport operation: Extract
+[184363] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.csvexport/1.0.5CsvExport.7z, C:\ProgramData
+[184363] Done
+[184364] perform pl.com.salsoft.sqlitestudio.plugins.csvexport operation: Extract
+[184364] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.csvexport/1.0.5CsvExport.7z, C:\ProgramData
+[184397] Done
+[184402] backup pl.com.salsoft.sqlitestudio.plugins.csvimport operation: Extract
+[184402] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.csvimport/1.0.5CsvImport.7z, C:\ProgramData
+[184402] Done
+[184404] perform pl.com.salsoft.sqlitestudio.plugins.csvimport operation: Extract
+[184404] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.csvimport/1.0.5CsvImport.7z, C:\ProgramData
+[184496] Done
+[184501] backup pl.com.salsoft.sqlitestudio.plugins.configmigration operation: Extract
+[184502] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.configmigration/1.0.3ConfigMigration.7z, C:\ProgramData
+[184502] Done
+[184502] perform pl.com.salsoft.sqlitestudio.plugins.configmigration operation: Extract
+[184502] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.configmigration/1.0.3ConfigMigration.7z, C:\ProgramData
+[184598] Done
+[184605] backup pl.com.salsoft.sqlitestudio.plugins.htmlexport operation: Extract
+[184605] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.htmlexport/1.0.2HtmlExport.7z, C:\ProgramData
+[184605] Done
+[184605] perform pl.com.salsoft.sqlitestudio.plugins.htmlexport operation: Extract
+[184605] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.htmlexport/1.0.2HtmlExport.7z, C:\ProgramData
+[184631] Done
+[184637] backup pl.com.salsoft.sqlitestudio.plugins.multieditorimage operation: Extract
+[184637] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.multieditorimage/1.0.0MultiEditorImage.7z, C:\ProgramData
+[184637] Done
+[184645] perform pl.com.salsoft.sqlitestudio.plugins.multieditorimage operation: Extract
+[184645] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.multieditorimage/1.0.0MultiEditorImage.7z, C:\ProgramData
+[184682] Done
+[184688] backup pl.com.salsoft.sqlitestudio.plugins.jsonexport operation: Extract
+[184688] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.jsonexport/1.0.2JsonExport.7z, C:\ProgramData
+[184688] Done
+[184697] perform pl.com.salsoft.sqlitestudio.plugins.jsonexport operation: Extract
+[184697] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.jsonexport/1.0.2JsonExport.7z, C:\ProgramData
+[184852] Done
+[184859] backup pl.com.salsoft.sqlitestudio.plugins.pdfexport operation: Extract
+[184859] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.pdfexport/1.0.3PdfExport.7z, C:\ProgramData
+[184859] Done
+[184859] perform pl.com.salsoft.sqlitestudio.plugins.pdfexport operation: Extract
+[184859] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.pdfexport/1.0.3PdfExport.7z, C:\ProgramData
+[185034] Done
+[185041] backup pl.com.salsoft.sqlitestudio.plugins.printing operation: Extract
+[185041] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.printing/1.0.3Printing.7z, C:\ProgramData
+[185041] Done
+[185041] perform pl.com.salsoft.sqlitestudio.plugins.printing operation: Extract
+[185041] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.printing/1.0.3Printing.7z, C:\ProgramData
+[185125] Done
+[185132] backup pl.com.salsoft.sqlitestudio.plugins.regexpimport operation: Extract
+[185132] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.regexpimport/1.0.2RegExpImport.7z, C:\ProgramData
+[185132] Done
+[185133] perform pl.com.salsoft.sqlitestudio.plugins.regexpimport operation: Extract
+[185133] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.regexpimport/1.0.2RegExpImport.7z, C:\ProgramData
+[185207] Done
+[185215] backup pl.com.salsoft.sqlitestudio.plugins.sqlenterpriseformatter operation: Extract
+[185215] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.sqlenterpriseformatter/1.0.6SqlEnterpriseFormatter.7z, C:\ProgramData
+[185215] Done
+[185215] perform pl.com.salsoft.sqlitestudio.plugins.sqlenterpriseformatter operation: Extract
+[185215] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.sqlenterpriseformatter/1.0.6SqlEnterpriseFormatter.7z, C:\ProgramData
+[185297] Done
+[185305] backup pl.com.salsoft.sqlitestudio.plugins.sqlexport operation: Extract
+[185305] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.sqlexport/1.1.2SqlExport.7z, C:\ProgramData
+[185305] Done
+[185306] perform pl.com.salsoft.sqlitestudio.plugins.sqlexport operation: Extract
+[185306] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.sqlexport/1.1.2SqlExport.7z, C:\ProgramData
+[185436] Done
+[185444] backup pl.com.salsoft.sqlitestudio.plugins.sqlformattersimple operation: Extract
+[185444] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.sqlformattersimple/1.0.1SqlFormatterSimple.7z, C:\ProgramData
+[185444] Done
+[185444] perform pl.com.salsoft.sqlitestudio.plugins.sqlformattersimple operation: Extract
+[185444] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.sqlformattersimple/1.0.1SqlFormatterSimple.7z, C:\ProgramData
+[185515] Done
+[185533] backup pl.com.salsoft.sqlitestudio.plugins.dbsqlitecipher operation: Extract
+[185533] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.dbsqlitecipher/1.1.1DbSqliteCipher.7z, C:\ProgramData
+[185533] Done
+[185533] perform pl.com.salsoft.sqlitestudio.plugins.dbsqlitecipher operation: Extract
+[185533] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.dbsqlitecipher/1.1.1DbSqliteCipher.7z, C:\ProgramData
+[185795] Done
+[185805] backup pl.com.salsoft.sqlitestudio.plugins.dbsqlite2 operation: Extract
+[185805] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.dbsqlite2/1.0.6DbSqlite2.7z, C:\ProgramData
+[185805] Done
+[185805] perform pl.com.salsoft.sqlitestudio.plugins.dbsqlite2 operation: Extract
+[185805] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.dbsqlite2/1.0.6DbSqlite2.7z, C:\ProgramData
+[185979] Done
+[185989] backup pl.com.salsoft.sqlitestudio.plugins.dbsqlitesystemdata operation: Extract
+[185989] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.dbsqlitesystemdata/1.0.0DbSqliteSystemData.7z, C:\ProgramData
+[185989] Done
+[185990] perform pl.com.salsoft.sqlitestudio.plugins.dbsqlitesystemdata operation: Extract
+[185990] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.dbsqlitesystemdata/1.0.0DbSqliteSystemData.7z, C:\ProgramData
+[186332] Done
+[186343] backup pl.com.salsoft.sqlitestudio.plugins.scriptingtcl operation: Extract
+[186343] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.scriptingtcl/1.0.3ScriptingTcl.7z, C:\ProgramData
+[186343] Done
+[186343] perform pl.com.salsoft.sqlitestudio.plugins.scriptingtcl operation: Extract
+[186343] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.scriptingtcl/1.0.3ScriptingTcl.7z, C:\ProgramData
+[186685] Done
+[186694] backup pl.com.salsoft.sqlitestudio.plugins.dbsqlitewx operation: Extract
+[186695] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.dbsqlitewx/1.0.1DbSqliteWx.7z, C:\ProgramData
+[186695] Done
+[186695] perform pl.com.salsoft.sqlitestudio.plugins.dbsqlitewx operation: Extract
+[186695] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.dbsqlitewx/1.0.1DbSqliteWx.7z, C:\ProgramData
+[186928] Done
+[186938] backup pl.com.salsoft.sqlitestudio.plugins.xmlexport operation: Extract
+[186938] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.xmlexport/1.0.2XmlExport.7z, C:\ProgramData
+[186938] Done
+[186938] perform pl.com.salsoft.sqlitestudio.plugins.xmlexport operation: Extract
+[186938] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.xmlexport/1.0.2XmlExport.7z, C:\ProgramData
+[186995] Done
+[187030] Writing maintenance tool: "C:\\ProgramData/UpdateSQLiteStudio.exe.new"
+[187524] Wrote permissions for maintenance tool.
+[191494] Maintenance tool restart: false.
+[191539] Warning: QString::arg: Argument missing: Run SQLiteStudio, SQLiteStudio
+[191539] Control script callback "FinishedPageCallback" does not exist.
+[194109] starting "C:\\ProgramData/SQLiteStudio.exe" ()
+************************************* Invoked: qua jan 12 11:00:48 2022
+[0] Operations sanity check succeeded.
+[15750] addDownloadable "CsvExport.7z"
+[15751] addDownloadable "CsvImport.7z"
+[15752] addDownloadable "MultiEditorImage.7z"
+[15752] addDownloadable "DbAndroid.7z"
+[15753] addDownloadable "DbSqliteCipher.7z"
+[15753] addDownloadable "SqlExport.7z"
+[15754] addDownloadable "DbSqliteSystemData.7z"
+[15754] addDownloadable "DbSqlite2.7z"
+[15755] addDownloadable "ScriptingTcl.7z"
+[15755] addDownloadable "SqlEnterpriseFormatter.7z"
+[15756] addDownloadable "JsonExport.7z"
+[15756] addDownloadable "ConfigMigration.7z"
+[15757] addDownloadable "RegExpImport.7z"
+[15758] addDownloadable "sqlitestudio.7z"
+[15758] addDownloadable "DbSqliteWx.7z"
+[15759] addDownloadable "XmlExport.7z"
+[15759] addDownloadable "Printing.7z"
+[15759] addDownloadable "HtmlExport.7z"
+[15760] addDownloadable "PdfExport.7z"
+[15760] addDownloadable "SqlFormatterSimple.7z"
+[15761] addDownloadable "qt.7z"
+************************************* Invoked: qua jan 12 11:08:07 2022
+[0] Operations sanity check succeeded.
+[9238] addDownloadable "MultiEditorImage.7z"
+[9239] addDownloadable "HtmlExport.7z"
+[9239] addDownloadable "Printing.7z"
+[9240] addDownloadable "DbSqliteWx.7z"
+[9240] addDownloadable "PdfExport.7z"
+[9279] addDownloadable "qt.7z"
+[9279] addDownloadable "SqlFormatterSimple.7z"
+[9280] addDownloadable "DbAndroid.7z"
+[9280] addDownloadable "SqlExport.7z"
+[9281] addDownloadable "CsvExport.7z"
+[9281] addDownloadable "ConfigMigration.7z"
+[9281] addDownloadable "CsvImport.7z"
+[9282] addDownloadable "ScriptingTcl.7z"
+[9282] addDownloadable "DbSqliteCipher.7z"
+[9282] addDownloadable "sqlitestudio.7z"
+[9283] addDownloadable "DbSqlite2.7z"
+[9283] addDownloadable "DbSqliteSystemData.7z"
+[9283] addDownloadable "RegExpImport.7z"
+[9284] addDownloadable "JsonExport.7z"
+[9284] addDownloadable "XmlExport.7z"
+[9284] addDownloadable "SqlEnterpriseFormatter.7z"
+************************************* Invoked: qua jan 12 19:28:53 2022
+[0] Operations sanity check succeeded.
+[7125] addDownloadable "DbSqlite2.7z"
+[7126] addDownloadable "SqlFormatterSimple.7z"
+[7127] addDownloadable "ConfigMigration.7z"
+[7128] addDownloadable "XmlExport.7z"
+[7129] addDownloadable "ScriptingTcl.7z"
+[7129] addDownloadable "DbSqliteCipher.7z"
+[7130] addDownloadable "JsonExport.7z"
+[7131] addDownloadable "PdfExport.7z"
+[7132] addDownloadable "DbSqliteSystemData.7z"
+[7133] addDownloadable "RegExpImport.7z"
+[7133] addDownloadable "DbAndroid.7z"
+[7133] addDownloadable "Printing.7z"
+[7134] addDownloadable "CsvExport.7z"
+[7134] addDownloadable "DbSqliteWx.7z"
+[7134] addDownloadable "CsvImport.7z"
+[7135] addDownloadable "HtmlExport.7z"
+[7135] addDownloadable "SqlEnterpriseFormatter.7z"
+[7136] addDownloadable "SqlExport.7z"
+[7136] addDownloadable "MultiEditorImage.7z"
+[7137] addDownloadable "sqlitestudio.7z"
+[7138] addDownloadable "qt.7z"
